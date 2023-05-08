@@ -54,6 +54,7 @@ class Bigram():
         self.idf = idf
         self.unigram = InformationRetrieval()
         self.unigram.buildIndex(docs, docIDS)
+        print(len(self.unigram.index))
 
     def hybridrank(self, queries):
         doc_IDs_ordered = []
