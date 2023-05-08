@@ -1,5 +1,5 @@
 #ignore plot
-code/output/eval_plot.png
+code/output/*.png
 
 #ignore pycache
 code/__pycache__
