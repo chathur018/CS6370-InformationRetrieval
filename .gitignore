@@ -3,3 +3,6 @@ code/output/*.png
 
 #ignore pycache
 code/__pycache__
+
+#ignore zipfile
+*.zip
